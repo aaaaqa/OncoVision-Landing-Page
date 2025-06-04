@@ -1,19 +1,23 @@
 ---
-title: "Dynamic Routing and Static Generation"
-excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus."
+title: "AI-Based Approach for Lung Analysis and Tumor Recognition Optimization"
+excerpt: "AI-BALATRO propone una solución innovadora que integra un modelo de inteligencia artificial en una aplicación de escritorio, empleando redes neuronales convolucionales para la detección temprana de nódulos pulmonares en escaneos de tomografía computarizada."
 coverImage: "/assets/blog/dynamic-routing/cover.jpg"
-date: "2020-03-16T05:35:07.322Z"
+date: "2025-03-16T05:35:07.322Z"
 author:
-  name: JJ Kasper
-  picture: "/assets/blog/authors/jj.jpeg"
+  name: Flores, J.D. & Goyas, L.
+  picture: "/assets/blog/authors/jj.jpg"
 ogImage:
   url: "/assets/blog/dynamic-routing/cover.jpg"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus. Praesent elementum facilisis leo vel fringilla. Congue mauris rhoncus aenean vel. Egestas sed tempus urna et pharetra pharetra massa massa ultricies.
+AI-BALATRO propone una solución innovadora que integra un modelo de inteligencia artificial en una aplicación de escritorio, empleando redes neuronales convolucionales para la detección temprana de nódulos pulmonares en escaneos de tomografía computarizada.
 
-Venenatis cras sed felis eget velit. Consectetur libero id faucibus nisl tincidunt. Gravida in fermentum et sollicitudin ac orci phasellus egestas tellus. Volutpat consequat mauris nunc congue nisi vitae. Id aliquet risus feugiat in ante metus dictum at tempor. Sed blandit libero volutpat sed cras. Sed odio morbi quis commodo odio aenean sed adipiscing. Velit euismod in pellentesque massa placerat. Mi bibendum neque egestas congue quisque egestas diam in arcu. Nisi lacus sed viverra tellus in. Nibh cras pulvinar mattis nunc sed. Luctus accumsan tortor posuere ac ut consequat semper viverra. Fringilla ut morbi tincidunt augue interdum velit euismod.
+La solución utiliza técnicas de aprendizaje profundo aplicadas a la arquitectura YOLO, ampliamente reconocida para la detección de objetos, seleccionándose la versión YOLOv12x para su implementación inicial. En la fase experimental, se evalúa el desempeño de los modelos YOLOv12x y YOLOv9x utilizando métricas clave como la sensibilidad y la precisión, con el fin de reducir falsos positivos, mejorar la eficiencia y determinar el rendimiento individual de cada versión. Esta propuesta representa una alternativa accesible e innovadora para contribuir a la detección temprana del cáncer, con potenciales aplicaciones en el ámbito de la salud.
 
-## Lorem Ipsum
+## Contribución principal
 
-Tristique senectus et netus et malesuada fames ac turpis. Ridiculous mus mauris vitae ultricies leo integer malesuada nunc vel. In mollis nunc sed id semper. Egestas tellus rutrum tellus pellentesque. Phasellus vestibulum lorem sed risus ultricies tristique nulla. Quis blandit turpis cursus in hac habitasse platea dictumst quisque. Eros donec ac odio tempor orci dapibus ultrices. Aliquam sem et tortor consequat id porta nibh. Adipiscing elit duis tristique sollicitudin nibh sit amet commodo nulla. Diam vulputate ut pharetra sit amet. Ut tellus elementum sagittis vitae et leo. Arcu non odio euismod lacinia at quis risus sed vulputate.
+- **Desarrollo de una aplicación web:** Se presenta una aplicación web que integra un modelo de visión computacional, facilitando la detección de lesiones pulmonares a partir de imágenes de tomografías computarizadas. Esta aplicación tiene el fin de ser una herramienta de asistencia para radiólogos, optimizando el proceso de diagnóstico de cáncer al pulmón con los resultados de nuestro modelo.
+
+- **Entrenamiento de modelo basado en CNN:** Se entrena un modelo de CNN que analiza imágenes de tomografías computarizadas, usando técnicas de detección de objetos para localizar nódulos pulmonares y clasificar su nivel de malignidad.
+
+- **Evaluación comparativa de la técnica YOLO:** Se comparan las versiones 9 y 12 de YOLO en el contexto de detección de nódulos pulmonares, proporcionando conocimiento sobre su desempeño y estableciendo una base sólida para futuras investigaciones en el área.
