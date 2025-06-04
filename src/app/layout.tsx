@@ -1,6 +1,7 @@
 import Footer from "@/app/_components/footer";
 import { CMS_NAME, HOME_OG_IMAGE_URL } from "@/lib/constants";
 import type { Metadata } from "next";
+import dynamic from 'next/dynamic'
 import { Inter } from "next/font/google";
 import cn from "classnames";
 import { ThemeSwitcher } from "./_components/theme-switcher";
@@ -17,13 +18,15 @@ export const metadata: Metadata = {
   },
 };
 
+//const NoSSR = dynamic(() => import('./_components/theme-switcher.tsx'), { ssr: false })
+
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning >
       <head>
         <link
           rel="apple-touch-icon"
